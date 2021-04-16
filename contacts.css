@@ -1,0 +1,190 @@
+.navbar {
+    border:none;
+    color: white;
+    background-color: black;
+    border: solid;
+    margin: 1px ;
+}
+#nav1{
+    border: solid;
+    border-color: white;
+    color: white;
+    background-color: indigo;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 5px;
+    cursor: pointer; 
+    font-style: oblique;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#nav1:hover{
+    transform: scale(1.2); /* (150% zoom)*/
+}
+
+#nav2{
+    border: solid;
+    border-color: white;
+    color: white;
+    background-color: indigo;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 5px;
+    cursor: pointer;
+    font-style: oblique; 
+}
+
+#nav2:hover{
+    transform: scale(1.2); /* (150% zoom)*/
+}
+
+#nav3{
+    border: solid;
+    border-color: white;
+    color: white;
+    background-color: indigo;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 5px;
+    cursor: pointer;
+    font-style: oblique; 
+}
+#nav3:hover{
+    transform: scale(1.2); /* (150% zoom)*/
+}
+#ref1{
+    border: solid;
+    border-color: white;
+    color: white;
+    background-color:indigo;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-style: oblique; 
+    position: relative;
+    transform: translateX(700px);
+}
+#title{
+    display:inline-block;
+    transform: translateX(225px);
+    font-style: oblique;
+    font-size: 45px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 4px;
+}
+
+
+.background{
+    opacity: 90%;
+    background-image: url("wp2357780.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.header{
+    color: white;
+    background-color: black;
+    font-style: oblique;
+    text-decoration:underline;
+    border: solid;
+    border-color:grey;
+    padding: 10px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    display:inline-block;
+    display: block;
+    margin-left: 415px;
+    margin-right: 1000px;
+    width: 800px;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  .text{
+      color: white;
+      text-decoration: underline;
+      font-size: 24px;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 5px solid grey;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color:indigo;
+    color: white;
+    padding: 12px 20px;
+    border: solid;
+    border-color: grey;
+    
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: indigo;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: black;
+    border-color: grey;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  .image{
+    border: solid;
+    border-color: grey;
+    border-radius: 100px;
+    background-color: black;
+    width: 400px;
+    height: 600px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
